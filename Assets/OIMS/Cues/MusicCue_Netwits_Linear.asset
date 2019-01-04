@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59971d3967b2748709c28a2fa636da6c, type: 3}
+  m_Name: MusicCue_Netwits_Linear
+  m_EditorClassIdentifier: 
+  cueName: Netwits Linear
+  immediateTransition: 1
+  generalFadeInTime: 3
+  generalFadeOutTime: 3
+  transitionFadeInTime: 3
+  transitionfadeOutTime: 3
+  musicPhraseGroups:
+  - phraseGroup: New Phrase
+    musicPhrases:
+    - phraseType: 0
+      phraseName: New Phrase
+      synchronizedLayerLoops: 0
+      loopHowManyTimes: 0
+      musicLayers:
+      - layerName: New Layer
+        theAudioClip: {fileID: 8300000, guid: 90cf7019f8e4042c9b7e2bd02ec3173c, type: 3}
+        tempAudioClip: {fileID: 8300000, guid: 90cf7019f8e4042c9b7e2bd02ec3173c, type: 3}
+        pickUpTime: -1
+        tailTime: -1
+        volumeModifier: 1
+        theAudioSource: {fileID: 0}
+        altAudioSource: {fileID: 0}
+        fadingIn: 0
+        fadingOut: 1
+      longestPickupTime: 0
+    whichPhrase: 1
+    randomize: 0
+    numberOfRepeats: 1
+    repeatCount: 0
+  - phraseGroup: New Phrase
+    musicPhrases:
+    - phraseType: 0
+      phraseName: New Phrase
+      synchronizedLayerLoops: 0
+      loopHowManyTimes: 4
+      musicLayers:
+      - layerName: New Layer
+        theAudioClip: {fileID: 8300000, guid: a7bafe2bfccac406caa2ce125dbba14c, type: 3}
+        tempAudioClip: {fileID: 8300000, guid: a7bafe2bfccac406caa2ce125dbba14c, type: 3}
+        pickUpTime: -1
+        tailTime: -1
+        volumeModifier: 1
+        theAudioSource: {fileID: 0}
+        altAudioSource: {fileID: 0}
+        fadingIn: 0
+        fadingOut: 1
+      longestPickupTime: 0
+    - phraseType: 0
+      phraseName: New Phrase
+      synchronizedLayerLoops: 0
+      loopHowManyTimes: 2
+      musicLayers:
+      - layerName: New Layer
+        theAudioClip: {fileID: 8300000, guid: e7073e748abd8454a82f5b816c1c1fe9, type: 3}
+        tempAudioClip: {fileID: 8300000, guid: e7073e748abd8454a82f5b816c1c1fe9, type: 3}
+        pickUpTime: -1
+        tailTime: -1
+        volumeModifier: 1
+        theAudioSource: {fileID: 0}
+        altAudioSource: {fileID: 0}
+        fadingIn: 0
+        fadingOut: 1
+      longestPickupTime: 0
+    - phraseType: 0
+      phraseName: New Phrase
+      synchronizedLayerLoops: 0
+      loopHowManyTimes: 2
+      musicLayers:
+      - layerName: New Layer
+        theAudioClip: {fileID: 8300000, guid: 0801b1a90fd2742e3b8629915388206e, type: 3}
+        tempAudioClip: {fileID: 8300000, guid: 0801b1a90fd2742e3b8629915388206e, type: 3}
+        pickUpTime: -1
+        tailTime: -1
+        volumeModifier: 1
+        theAudioSource: {fileID: 0}
+        altAudioSource: {fileID: 0}
+        fadingIn: 0
+        fadingOut: 1
+      longestPickupTime: 0
+    - phraseType: 0
+      phraseName: New Phrase
+      synchronizedLayerLoops: 0
+      loopHowManyTimes: 2
+      musicLayers:
+      - layerName: New Layer
+        theAudioClip: {fileID: 8300000, guid: 75e505210ba2d43b28474638a529e4c5, type: 3}
+        tempAudioClip: {fileID: 8300000, guid: 75e505210ba2d43b28474638a529e4c5, type: 3}
+        pickUpTime: -1
+        tailTime: -1
+        volumeModifier: 1
+        theAudioSource: {fileID: 0}
+        altAudioSource: {fileID: 0}
+        fadingIn: 0
+        fadingOut: 1
+      longestPickupTime: 0
+    whichPhrase: 4
+    randomize: 0
+    numberOfRepeats: 5
+    repeatCount: 0
+  - phraseGroup: New Phrase
+    musicPhrases:
+    - phraseType: 0
+      phraseName: New Phrase
+      synchronizedLayerLoops: 0
+      loopHowManyTimes: 0
+      musicLayers:
+      - layerName: New Layer
+        theAudioClip: {fileID: 8300000, guid: b2823f3ee4dc944c0b4e0ee061c52585, type: 3}
+        tempAudioClip: {fileID: 8300000, guid: b2823f3ee4dc944c0b4e0ee061c52585, type: 3}
+        pickUpTime: -1
+        tailTime: -1
+        volumeModifier: 1
+        theAudioSource: {fileID: 0}
+        altAudioSource: {fileID: 0}
+        fadingIn: 0
+        fadingOut: 1
+      longestPickupTime: 0
+    whichPhrase: 1
+    randomize: 0
+    numberOfRepeats: 1
+    repeatCount: 0
+  generatePlaylistCurrentTime: 0
+  whichPhraseGroup: 3
+  setupDone: 1

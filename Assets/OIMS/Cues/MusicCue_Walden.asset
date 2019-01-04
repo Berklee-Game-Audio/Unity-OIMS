@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59971d3967b2748709c28a2fa636da6c, type: 3}
+  m_Name: MusicCue_Walden
+  m_EditorClassIdentifier: 
+  cueName: Walden
+  immediateTransition: 1
+  generalFadeInTime: 3
+  generalFadeOutTime: 3
+  transitionFadeInTime: 3
+  transitionfadeOutTime: 3
+  musicPhraseGroups:
+  - phraseGroup: New Phrase
+    musicPhrases:
+    - phraseType: 0
+      phraseName: New Phrase
+      synchronizedLayerLoops: 0
+      loopHowManyTimes: 999
+      musicLayers:
+      - layerName: New Layer
+        theAudioClip: {fileID: 8300000, guid: 34c6fbf1dd38549b6b78577a3ccb2e99, type: 3}
+        tempAudioClip: {fileID: 8300000, guid: 34c6fbf1dd38549b6b78577a3ccb2e99, type: 3}
+        pickUpTime: -1
+        tailTime: -1
+        volumeModifier: 1
+        theAudioSource: {fileID: 0}
+        altAudioSource: {fileID: 0}
+        fadingIn: 0
+        fadingOut: 0
+      - layerName: New Layer
+        theAudioClip: {fileID: 8300000, guid: 98eb7d058249544afbabb95ace5ca986, type: 3}
+        tempAudioClip: {fileID: 8300000, guid: 98eb7d058249544afbabb95ace5ca986, type: 3}
+        pickUpTime: -1
+        tailTime: -1
+        volumeModifier: 1
+        theAudioSource: {fileID: 0}
+        altAudioSource: {fileID: 0}
+        fadingIn: 0
+        fadingOut: 0
+      - layerName: New Layer
+        theAudioClip: {fileID: 8300000, guid: 83dfb58debc3d490cab67fefa58d0480, type: 3}
+        tempAudioClip: {fileID: 8300000, guid: 83dfb58debc3d490cab67fefa58d0480, type: 3}
+        pickUpTime: -1
+        tailTime: -1
+        volumeModifier: 1
+        theAudioSource: {fileID: 0}
+        altAudioSource: {fileID: 0}
+        fadingIn: 0
+        fadingOut: 0
+      longestPickupTime: 0
+    whichPhrase: 0
+    randomize: 0
+    numberOfRepeats: 1
+    repeatCount: 0
+  generatePlaylistCurrentTime: 0
+  whichPhraseGroup: 0
+  setupDone: 1
